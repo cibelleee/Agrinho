@@ -1,107 +1,57 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-br">
 <head>
-    <title>Ingrid Rural</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do Campo à Mesa</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <section class="principal container">
-        <div class="container__caixa">
-            <h1 class="container__titulo">Com o Combo+, você pode aproveitar o Ingrid Rural e o Agroparaná por um preço
-                único.</h1>
-            <img src="img/Combo.png" alt="O combo+ é a junção do alura+ e o alura língua" class="container__imagem">
-            <a href="www.alura.com.br" class="container__botao">Assine por 5x de R$ 19,99*</a>
-            <a href="www.alura.com.br" class="container__botao botao_secundario">Assinar somente o Alura+</a>
-            <p class="container__aviso">*O preço pode variar caso a assinatura seja feita em outros planos.</p>
-        </div>
-    </section>
-
-    <section class="container secundario">
-        <img src="img/Plataformas.png" alt="Um monitor e um celular com a alura plus aberta" class="secundario__imagem">
-        <div class="container__descricao">
-            <h2 class="descricao__titulo">Acompanhe para sua educação ambiental</h2>
-            <p class="descricao__texto">Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros
-                aparelhos. Nossa seleção de cursos não para de crescer.</p>
-        </div>
-    </section>
-
-    <section class="container secundario">
-        <div class="container__descricao">
-            <p class="descricao__texto">
-                Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter acesso a cursos de diversas áreas da
-                tecnologia e aprender inglês ou espanhol, onde e como quiser.
-            </p>
-            <a href="www.alura.com.br" class="container__botao secundario__botao" container>Assine o Combo+</a>
-        </div>
-        <img src="img/Telas.png" alt="Tela do alura+ e alura língua" class="secundario__imagem">
-    </section>s
-
-    <section class="container secundario">
-        <img src="img/Notebook.png" alt="Notebook com a página do curso HTML5 e CSS3 da Alura aberta"
-            class="secundario__imagem">
-        <div class="container__descricao">s
-            <h2 class="descricao__titulo">Baixe seus cursos</h2>
-            <p class="descricao__texto">Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com
-                você, até mesmo sem internet.</p>s
-        </div>
-    </section>
-    
-    <section class="dispositivos">
-        <h2 class="dispositivos__titulo">Disponível nos seus dispositivos favoritos</h2>
-        <ul class="dispositivos__lista">
-            <li>
-                <img src="img/tv.png" alt="Ícone de televisão">
-                <h3 class="lista__item">TV</h3>
-            </li>
-            <li>
-                <img src="img/computador.png" alt="Ícone de computador">
-                <h3 class="lista__item">Computador</h3>
-            </li>
-            <li>
-                <img src="img/celular.png" alt="Ícone de celular">
-                <h3 class="lista__item">Celular</h3>
-            </li>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="PLUS.png" alt="logo da alura start">
+        <ul class="cabecalho-lista">
+            <li class="cabecalho-lista-item">Início</li>
+            <li class="cabecalho-lista-item">Sobre</li>
+            <li class="cabecalho-lista-item">Cadeia de Abastecimento</li>
+            <li class="cabecalho-lista-item">Contato</li>
         </ul>
+    </header>
+    <section class="escola">
+        <div class="escola-div-conteudo">
+            <h2 class="escola-titulo">Do Campo à Mesa</h2>
+            <p class="escola-texto-um">Bem-vindo ao nosso site educativo sobre a cadeia de abastecimento alimentar. Aqui, você vai descobrir como os alimentos viajam do campo até a sua mesa.</p>
+            <p class="escola-texto-dois">Nosso objetivo é educar sobre as diferentes etapas desse processo crucial, desde a produção agrícola até o consumo final.</p>
+        </div>
+        <img class="escola-imagem" src="Formula-bro.png" alt="imagem representativa da cadeia de abastecimento alimentar">
     </section>
-
-    <footer class="rodape">
-        <img src="img/Logo.png" alt="Alura+" class="rodape__logo">
-        <ul class="rodape__lista">
-            <li class="lista__link">
-                <a href="#">Idioma</a>
-            </li>s
-            <li class="lista__link">
-                <a href="#">Dispositivos compatíveis</a>
-            </li>
-            <li class="lista__link">
-                <a href="#">Contrato de assinatura</a>
-            </li>
-            <li class="lista__link">
-                <a href="#">Politica de privacidade</a>
-            </li>
-            <li class="lista__link">
-                <a href="#">Proteção de dados no Brasil</a>
-            </li>
-            <li class="lista__link">
-                <a href="#">Anuncios personalizados</a>
-            </li>
-            <li class="lista__link">
-                <a href="#">Ajuda</a>
-            </li>
-        </ul>
-        <p class="rodape__texto">® 2021 Alura, Alura+ e Alura Língua. Todos os direitos reservados. Serviço de
-            assinatura paga. Conteúdo sujeito a disponibilidade.</p>
-        <p class="rodape__texto">Alura+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O
-            serviço Alura+ é comercializado por Aovs Sistemas de Informática S.A., Rua Vergueiro, 3185 - Liberdade, São
-            Paulo - SP, 04101-300, Brasil e CNPJ 05.555.382/0001-33</p>
-    </footer>
+    <section class="estudante">
+        <h2 class="estudante-titulo">        Entenda as Etapas</h2>
+        <div class="estudante-todos">
+        <span></span>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="exploração-agrícola-tradicional-de-tração-na-paisagem-rural-montanhosa-com-instalações-assistência-e-rega-agricultura-228947579.jpg" alt="imagem da produção agrícola">
+            <h3 class="estudante-nome">Produção</h3>
+            <p class="estudante-descricao">A fase de produção envolve todas as atividades relacionadas ao cultivo e colheita de alimentos. Isso inclui a seleção de sementes, preparo do solo, plantio, manejo de pragas e doenças, irrigação, e finalmente, a colheita. Esta etapa é crucial, pois determina a qualidade e a quantidade dos alimentos disponíveis para consumo.</p>
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="5878037-composicao-industria-de-alimentos-enlatados-vetor.jpg" alt="imagem do processamento de alimentos">
+            <h3 class="estudante-nome">Processamento</h3>
+            <p class="estudante-descricao">Após a colheita, os alimentos passam por uma série de processos para garantir que estejam prontos para o consumo. Isso pode incluir lavagem, corte, embalagem, e em alguns casos, transformação em outros produtos (como transformar leite em queijo ou frutas em suco). O processamento ajuda a prolongar a vida útil dos alimentos e facilitar seu transporte e consumo.</p>
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="camion-lleno-productos-alimenticios_169241-5683.jpg" alt="imagem da distribuição de alimentos">
+            <h3 class="estudante-nome">Distribuição</h3>
+            <p class="estudante-descricao">A distribuição é a fase onde os alimentos são transportados dos locais de produção ou processamento até os pontos de venda, como supermercados, mercearias e mercados locais. Este processo envolve logística e transporte, e é essencial para garantir que os alimentos cheguem frescos e em boas condições ao consumidor final.</p>
+        </div>
+        <di</dimg>v class="estudante-div">
+            <img class="estudante-imagem" src="3339425-jantar-de-acao-de-gracas-de-uma-mesa-de-banquete-festiva-com-comidas-e-bebidas-vetor.jpg" alt="imagem do consumo de alimentos"></div>
+            <h3 class="estudante-nome">Consumo</h3>
+            <p class="estudante-descricao">A etapa final é o consumo, onde os alimentos são comprados, preparados e consumidos pelos consumidores. Este é o ponto culminante de toda a cadeia de abastecimento, e inclui práticas como a compra de alimentos frescos, o preparo de refeições e a conscientização sobre hábitos alimentares saudáveis e sustentáveis.</p>
+    </div>
+    </section>
 </body>
-
 </html>
